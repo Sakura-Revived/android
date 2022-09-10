@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="sakura"
+           fetch="https://github.com/ProjectSakura"
+           revision="10" />
+
+  <remote  name="Sakura-Devices"
+           fetch="https://github.com/Sakura-Devices"
+           revision="10" />
+
+  <remote  name="sakura-revived"
+           fetch="https://github.com/Sakura-Revived"
+           revision="10" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+
+  <!-- Sakura Projects -->
+  <project path="build/make" name="build_make" groups="pdk" remote="sakura-revived" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="sakura-revived" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="sakura-revived"/>
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="sakura-revived"/>
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" groups="pdk-fs" remote="sakura"/>
+  <project path="packages/apps/SakuraSettings" name="packages_apps_SakuraSettings" groups="pdk-fs" remote="sakura-revived"/>
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="sakura-revived"/>
+  <project path="packages/apps/BlurView" name="packages_apps_BlurView" groups="pdk-fs" remote="sakura"/>
+  <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" groups="pdk-fs" remote="sakura-revived"/>
+  <project path="packages/apps/OmniStyle" name="packages_apps_Omnistyle" groups="pdk-fs" remote="sakura"/>
+  <project path="packages/apps/Updater" name="packages_apps_Updater" groups="pdk-fs" remote="sakura"/>
+  <project path="vendor/lineage" name="vendor_sakura" remote="sakura-revived" />
+  <project path="vendor/addons" name="vendor_addons" remote="sakura" />
+  <project path="vendor/google/gapps" name="LordShen/vendor_google_gapps" remote="gitlab" revision="10" clone-depth="1" />
+
+  <!-- Sakura Additions -->
+  <project path="android" name="android" remote="sakura-revived"/>
+  <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="sakura" />
+  <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="sakura" />
+  <project path="lineage-sdk" name="lineage-sdk" remote="sakura-revived"/>
+  <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="sakura-revived"/>
+  <project path="packages/overlays/Lineage" name="packages_overlays_Lineage" remote="sakura-revived" />
+</manifest>

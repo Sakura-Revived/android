@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="github"
-           fetch=".."
+           fetch="https://github.com"
            review="review.lineageos.org" />
 
   <remote  name="private"
@@ -692,6 +692,8 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
 
   <include name="snippets/lineage.xml" />
-
+  <include name="snippets/remove.xml" />
+  <include name="snippets/sakura.xml" />
+ 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
