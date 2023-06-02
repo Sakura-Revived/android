@@ -35,12 +35,13 @@
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="sakura-revived"/>
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="sakura-revived"/>
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" groups="pdk-fs" remote="sakura"/>
-  <project path="packages/apps/SakuraSettings" name="packages_apps_SakuraSettings" groups="pdk-fs" remote="sakura-revived"/>
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="sakura-revived"/>
   <project path="packages/apps/BlurView" name="packages_apps_BlurView" groups="pdk-fs" remote="sakura"/>
+  <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="sakura-revived" />
   <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" groups="pdk-fs" remote="sakura-revived"/>
   <project path="packages/apps/OmniStyle" name="packages_apps_Omnistyle" groups="pdk-fs" remote="sakura"/>
   <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="sakura-revived" />
+  <project path="packages/apps/SakuraSettings" name="packages_apps_SakuraSettings" groups="pdk-fs" remote="sakura-revived"/>
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="sakura-revived"/>
   <project path="packages/apps/Updater" name="packages_apps_Updater" groups="pdk-fs" remote="sakura"/>
   <project path="vendor/lineage" name="vendor_sakura" remote="sakura-revived" />
   <project path="vendor/addons" name="vendor_addons" remote="sakura" />
