@@ -167,7 +167,7 @@
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/honggfuzz" name="platform/external/honggfuzz" groups="pdk" remote="aosp" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk" remote="aosp" />
-  <project path="external/icu" name="LineageOS/android_external_icu" groups="pdk" />
+  <project path="external/icu" name="LineageOS-Revived/android_external_icu" groups="pdk" />
   <project path="external/ImageMagick" name="platform/external/ImageMagick" groups="pdk" remote="aosp" />
   <project path="external/image_io" name="platform/external/image_io" groups="pdk" remote="aosp" />
   <project path="external/ims" name="platform/external/ims" groups="pdk" remote="aosp" />
@@ -495,13 +495,13 @@
   <project path="packages/apps/CarrierConfig" name="LineageOS/android_packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CertInstaller" name="LineageOS/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" groups="pdk-fs" />
+  <project path="packages/apps/Contacts" name="LineageOS-Revived/android_packages_apps_Contacts" groups="pdk-fs" />
   <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" />
-  <project path="packages/apps/Dialer" name="LineageOS/android_packages_apps_Dialer" groups="pdk-fs" />
+  <project path="packages/apps/Dialer" name="LineageOS-Revived/android_packages_apps_Dialer" groups="pdk-fs" />
   <project path="packages/apps/DocumentsUI" name="LineageOS/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" groups="pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="LineageOS/android_packages_apps_EmergencyInfo" groups="pdk-fs" />
-  <project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" groups="pdk-fs" />
+  <project path="packages/apps/Gallery2" name="LineageOS-Revived/android_packages_apps_Gallery2" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="LineageOS/android_packages_apps_HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="LineageOS/android_packages_apps_KeyChain" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="LineageOS/android_packages_apps_ManagedProvisioning" groups="pdk-fs" />
@@ -528,7 +528,7 @@
   <project path="packages/apps/UnifiedEmail" name="LineageOS/android_packages_apps_UnifiedEmail" groups="pdk-fs" />
   <project path="packages/apps/UniversalMediaPlayer" name="platform/packages/apps/UniversalMediaPlayer" remote="aosp" />
   <project path="packages/apps/WallpaperPicker2" name="LineageOS/android_packages_apps_WallpaperPicker2" groups="pdk-fs" />
-  <project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
+  <project path="packages/inputmethods/LatinIME" name="LineageOS-Revived/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
   <project path="packages/inputmethods/LeanbackIME" name="platform/packages/inputmethods/LeanbackIME" groups="pdk-fs" remote="aosp" revision="c15e8e709714310c8a31d83522b66493b10e22c9" />
   <project path="packages/modules/CaptivePortalLogin" name="LineageOS/android_packages_modules_CaptivePortalLogin" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/ExtServices" name="platform/packages/modules/ExtServices" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -613,7 +613,7 @@
   <project path="system/chre" name="platform/system/chre" groups="pdk" remote="aosp" />
   <project path="system/connectivity/wificond" name="LineageOS/android_system_connectivity_wificond" groups="pdk" />
   <project path="system/connectivity/wifilogd" name="platform/system/connectivity/wifilogd" groups="pdk" remote="aosp" />
-  <project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
+  <project path="system/core" name="LineageOS-Revived/android_system_core" groups="pdk" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
   <project path="system/gsid" name="platform/system/gsid" groups="pdk" remote="aosp" />
@@ -636,7 +636,7 @@
   <project path="system/sepolicy" name="LineageOS/android_system_sepolicy" groups="pdk" />
   <project path="system/server_configurable_flags" name="platform/system/server_configurable_flags" groups="pdk" remote="aosp" />
   <project path="system/testing/gtest_extras" name="platform/system/testing/gtest_extras" groups="pdk" remote="aosp" />
-  <project path="system/timezone" name="LineageOS/android_system_timezone" groups="pdk" />
+  <project path="system/timezone" name="LineageOS-Revived/android_system_timezone" groups="pdk" />
   <project path="system/tools/aidl" name="LineageOS/android_system_tools_aidl" groups="pdk" />
   <project path="system/tools/hidl" name="LineageOS/android_system_tools_hidl" groups="pdk" />
   <project path="system/tools/sysprop" name="platform/system/tools/sysprop" groups="pdk" remote="aosp" />
