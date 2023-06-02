@@ -40,6 +40,7 @@
   <project path="packages/apps/BlurView" name="packages_apps_BlurView" groups="pdk-fs" remote="sakura"/>
   <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" groups="pdk-fs" remote="sakura-revived"/>
   <project path="packages/apps/OmniStyle" name="packages_apps_Omnistyle" groups="pdk-fs" remote="sakura"/>
+  <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="sakura-revived" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" groups="pdk-fs" remote="sakura"/>
   <project path="vendor/lineage" name="vendor_sakura" remote="sakura-revived" />
   <project path="vendor/addons" name="vendor_addons" remote="sakura" />

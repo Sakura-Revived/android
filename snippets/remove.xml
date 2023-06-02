@@ -13,6 +13,7 @@
   <remove-project name="LineageOS/android_hardware_lineage_interfaces" />
   <remove-project name="LineageOS/android_lineage-sdk" />
   <remove-project name="LineageOS/android_packages_apps_LineageParts" />
+  <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
   <remove-project name="LineageOS/android_packages_overlays_Lineage" />
   <remove-project name="LineageOS/ansible" />
   <remove-project name="LineageOS/charter" />
