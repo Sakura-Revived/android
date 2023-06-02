@@ -34,6 +34,7 @@
 
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="sakura-revived"/>
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="sakura-revived"/>
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="sakura-revived" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" groups="pdk-fs" remote="sakura"/>
   <project path="packages/apps/BlurView" name="packages_apps_BlurView" groups="pdk-fs" remote="sakura"/>
   <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="sakura-revived" />
